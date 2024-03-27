@@ -1,0 +1,6 @@
+@OneShop.OrderingService_HostAddress = http://localhost:5224
+
+GET {{OneShop.OrderingService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@OneShop.IdentityService_HostAddress = http://localhost:5015
+
+GET {{OneShop.IdentityService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+{
+  "solution": {
+    "path": "OneShop.sln",
+    "projects": [
+      "src\\OneShop.ApiService\\OneShop.ApiService.csproj",
+      "src\\OneShop.AppHost\\OneShop.AppHost.csproj",
+      "src\\OneShop.BasketService\\OneShop.BasketService.csproj",
+      "src\\OneShop.IdentityService\\OneShop.IdentityService.csproj",
+      "src\\OneShop.OrderingService\\OneShop.OrderingService.csproj",
+      "src\\OneShop.ProductService\\OneShop.ProductService.csproj",
+      "src\\OneShop.ServiceDefaults\\OneShop.ServiceDefaults.csproj",
+      "src\\OneShop.WebApp\\OneShop.WebApp.csproj",
+      "tests\\OneShop.ProductService.FunctionalTest\\OneShop.ProductService.FunctionalTest.csproj",
+      "tests\\OneShop.ProductService.UnitTest\\OneShop.ProductService.UnitTest.csproj"
+    ]
+  }
+}
