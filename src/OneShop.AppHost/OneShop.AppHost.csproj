@@ -1,13 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\OneShop.ApiService\OneShop.ApiService.csproj" />
     <ProjectReference Include="..\OneShop.BasketService\OneShop.BasketService.csproj" />
@@ -16,9 +14,7 @@
     <ProjectReference Include="..\OneShop.ProductService\OneShop.ProductService.csproj" />
     <ProjectReference Include="..\OneShop.WebApp\OneShop.WebApp.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting" Version="8.0.0-preview.4.24156.9" />
   </ItemGroup>
-
 </Project>
