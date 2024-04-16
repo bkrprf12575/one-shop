@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using OneShop.IdentityService.Constants;
 using OneShop.IdentityService.EntityFrameworks;
+using OneShop.ServiceDefaults.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,8 @@ builder.Services.AddDbContext<IdentityServiceDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString(DbConstants.ConnectionStringName));
 });
 
+builder.Services.AddDataSeedingProviders();
+
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
@@ -34,5 +37,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseDataSeedingProviders();
 
 app.Run();
