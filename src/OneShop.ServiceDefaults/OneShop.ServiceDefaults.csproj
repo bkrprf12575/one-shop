@@ -1,20 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <IsAspireSharedProject>true</IsAspireSharedProject>
-  </PropertyGroup>
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0-preview.3.24209.3" />
-    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="9.0.0-preview.3.24210.17" />
-    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.0" />
-    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.8.0" />
-    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
-    <PackageReference Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.8.0-beta.1" />
-    <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.8.1" />
-    <PackageReference Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.5" />
-    <PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.8.0" />
-  </ItemGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsAspireSharedProject>true</IsAspireSharedProject>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="9.0.0-preview.2.24157.4" />
+		<PackageReference Include="Microsoft.Extensions.ServiceDiscovery" Version="9.0.0-preview.3.24210.17" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.0" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.8.0" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.GrpcNetClient" Version="1.8.0-beta.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.8.1" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Process" Version="0.5.0-beta.5" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Runtime" Version="1.8.0" />
+	</ItemGroup>
+
 </Project>

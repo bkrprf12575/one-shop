@@ -3,17 +3,17 @@
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.OneShop_ApiService>("oneshop-apiservice");
+var apiService = builder.AddProject<Projects.OneShop_ApiService>("api-service");
 
-builder.AddProject<Projects.OneShop_WebApp>("oneshop-webfrontend")
+builder.AddProject<Projects.OneShop_WebApp>("webfrontend")
     .WithReference(apiService);
 
-builder.AddProject<Projects.OneShop_IdentityService>("oneshop-identityservice");
+builder.AddProject<Projects.OneShop_IdentityService>("identity-service");
 
-builder.AddProject<Projects.OneShop_OrderingService>("oneshop-orderingservice");
+builder.AddProject<Projects.OneShop_OrderingService>("ordering-service");
 
-builder.AddProject<Projects.OneShop_ProductService>("oneshop-productservice");
+builder.AddProject<Projects.OneShop_ProductService>("product-service");
 
-builder.AddProject<Projects.OneShop_BasketService>("oneshop-basketservice");
+builder.AddProject<Projects.OneShop_BasketService>("basket-service");
 
 builder.Build().Run();
