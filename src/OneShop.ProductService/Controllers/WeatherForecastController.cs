@@ -1,3 +1,6 @@
+// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace OneShop.ProductService.Controllers;

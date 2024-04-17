@@ -1,5 +1,5 @@
-﻿// Copyright (c) HelloShop Corporation. All rights reserved.
-// See the license file in the project root for more information.
+﻿// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
 
 using Microsoft.AspNetCore.Mvc;
 using OneShop.IdentityService.Entities;

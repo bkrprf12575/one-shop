@@ -1,3 +1,6 @@
+// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
+
 var builder = DistributedApplication.CreateBuilder(args);
 
 var apiService = builder.AddProject<Projects.OneShop_ApiService>("oneshop-apiservice");

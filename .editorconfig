@@ -240,4 +240,5 @@ dotnet_style_operator_placement_when_wrapping = beginning_of_line
 indent_size = 4
 tab_width = 4
 
-file_header_template = Copyright (c) HelloShop Corporation. All rights reserved.\nSee the license file in the project root for more information.
+# 文件头
+file_header_template = Copyright (c) OneShop Corporation. All rights reserved.\nLicensed under the MIT License.

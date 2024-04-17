@@ -1,4 +1,7 @@
-﻿namespace OneShop.IdentityService.Entities
+﻿// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+namespace OneShop.IdentityService.Entities
 {
     public class User
     {

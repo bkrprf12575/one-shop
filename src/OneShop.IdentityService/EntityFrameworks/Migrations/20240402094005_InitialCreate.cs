@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 

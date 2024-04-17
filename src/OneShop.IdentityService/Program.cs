@@ -1,3 +1,6 @@
+// Copyright (c) OneShop Corporation. All rights reserved.
+// Licensed under the MIT License.
+
 using Microsoft.EntityFrameworkCore;
 using OneShop.IdentityService.Constants;
 using OneShop.IdentityService.EntityFrameworks;
