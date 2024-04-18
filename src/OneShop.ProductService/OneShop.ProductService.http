@@ -1,6 +1,6 @@
 @OneShop.ProductService_HostAddress = http://localhost:5219
 
-GET {{OneShop.ProductService_HostAddress}}/weatherforecast/
+GET {{OneShop.ProductService_HostAddress}}/
 Accept: application/json
 
 ###

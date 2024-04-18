@@ -8,6 +8,5 @@ namespace OneShop.IdentityService.Entities
     public class Role : IdentityRole<int>
     {
         public DateTimeOffset CreationTime { get; set; } = TimeProvider.System.GetUtcNow();
-
     }
 }
