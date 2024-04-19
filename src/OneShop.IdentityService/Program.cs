@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 builder.Services.AddDataSeedingProviders();
 builder.Services.AddOpenApi();
-
+builder.Services.AddPermissionDefinitions();
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<IdentityServiceDbContext>(options =>
@@ -73,5 +73,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapGroup("api/Permissions").MapPermissionDefinitions("Permissions");
 
 app.Run();
